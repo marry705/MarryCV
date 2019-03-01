@@ -3,38 +3,29 @@
 <head>
     <meta charset='utf-8'>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- ключивые слова для поисковика -->
     <meta name="keywords" content="front-end, find work, javascript, beginner programmer">
-    <meta name="description" content="Marry Chilo CV"> 
+    <meta name="description" content="Marina Shylo CV"> 
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Marry Chilo</title>
-    <link rel="stylesheet" href="src/style/font-awesome/css/font-awesome.min.css">
+    <!-- <link rel="icon" href="/assets/js-3-min.png" sizes="196x196"> -->
+    <title>Marina Shylo</title>
+    <!-- <link rel="stylesheet" href="src/font-awesome/css/font-awesome.min.css"> -->
+    <link href="https://fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet">
     <link rel="stylesheet" href="src/nor.css">
     <link rel="stylesheet" href="src/style.css" type="text/css" >
 </head>
 <body>
-    <header>
-        <nav>  
-            <ul> 
-                <li><a href="#about">About</a></li>       
-                <li><a href="#basic_inf">Personal information</a></li>
-                <li><a href="#education">Education and qualification</a></li>
-                <li><a href="#experience">Work experience</a></li>
-                <li><a href="#prof_skills">Professional skills</a></li> 
-                <li><a href="#pers_skills">Personal Skills</a></li>   
-                <li><a href="#portfol">Portfolio</a></li> 
-            </ul>            
-        </nav>
-    </header>
-    <main>
-        <section id="about">
+    <section class="f-col">
+        <section>
+            <h1>Marina Shylo</h1>
+        </section>
+        <section>
             <h2>About</h2>
             <p>I am a beginner programmer seeking a 
                 full-time position where I can apply my skills 
                 and knowledge for continuous improvement.
             </p>
         </section>
-        <section id="basic_inf">
+        <section>
             <h2>Personal information</h2>
             <table>
                 <tr>
@@ -62,57 +53,65 @@
                 </tr>              
             </table>
         </section>
-        <section id="education">
+        <section>
             <h2>Education and qualification</h2>
-            <div>
-                <p>September 2012 – June 2017</p> 
-                <p>Belarusian State Economic University, Minsk 
-                    Department of Management Major: Economic Informatics</p>
-                <hr>
-                <p>September 2018 – February 2019</p> 
-                <p>Front-end development courses from The Rolling Scopes community</p>
-                <hr>
-                <p>2017-2018</p> 
-                <p>Streamline English Courses (Pre-Intermediate Level)</p>
-            </div> 
+            <table>
+                <tr>
+                    <td><b>September 2012 – June 2017</b></td>
+                    <td>Belarusian State Economic University, Minsk <br>
+                        Department of Management Major: Economic Informatics</td>
+                </tr>
+                <tr>
+                    <td><b>September 2018 – February 2019</b></td>
+                    <td>Front-end development courses from The Rolling Scopes community</td>
+                </tr>
+                <tr>
+                    <td><b>2017-2018</b></td>
+                    <td>Streamline English Courses (Pre-Intermediate Level)</td>
+                </tr>
+            </table>
         </section>
-        <section id="experience">
+        <section>
             <h2>Work experience</h2>
             <table>
                 <tr>
-                    <tb>Internship Bank Moscow-Minsk</tb>
                     <td>2014-2015</td>
+                    <td>
+                        <span><b>Internship Bank Moscow-Minsk</b></span>
+                        <ul>
+                            <li>development of business processes in the program Terrasoft CRM;</li>
+                            <li>impact analysis of business processes for working with clients;</li>
+                        </ul>
+                    </td>
                 </tr>
-            </table>
-            <ul>
-                <li>development of business processes in the program Terrasoft CRM;</li>
-                <li>impact analysis of business processes for working with clients;</li>
-            </ul>
-            <table>
                 <tr>
-                    <tb>Internship Alfa Bank</tb>
                     <td>2015-2016</td>
+                    <td>
+                        <span><b>Internship Alfa Bank</b></span>
+                        <ul>
+                            <li>making a plan for the implementation and software maintenance for the needs of the bank;</li>
+                            <li>calculate the value of software implementation for the needs of the bank;</li>
+                        </ul>
+                    </td>
                 </tr>
-            </table>
-            <ul>
-                <li>making a plan for the implementation and software maintenance for the needs of the bank;</li>
-                <li>calculate the value of software implementation for the needs of the bank;</li>
-            </ul>
-            <table>
                 <tr>
-                    <tb>Full time job OOO " ИнтеллектСервис "</tb>
                     <td>2017-p.t.</td>
+                    <td> 
+                        <span><b>Full time job OOO " ИнтеллектСервис"</b></span>                       
+                        <ul>
+                            <li>implementation of an accounting program, which includes placing the 
+                                program on the client's server and setting it up;</li>
+                            <li>development of functional data export program;</li>
+                            <li>development of user reports;</li>
+                            <li>solving problems, arising from customers in the process of operating programs;</li>
+                        </ul> 
+                    </td>
                 </tr>
             </table>
-            <ul>
-                <li>implementation of an accounting program, which includes placing the 
-                    program on the client's server and setting it up;</li>
-                <li>development of functional data export program;</li>
-                <li>development of user reports;</li>
-                <li>solving problems, arising from customers in the process of operating programs;</li>
-            </ul>            
         </section>
-        <section id="prof_skills">
+    </section>
+    <section class="s-col">
+        <section>
             <h2>Professional skills</h2>
             <table>
                 <tr>
@@ -204,7 +203,7 @@
                 </tr>               
             </table>
         </section>
-        <section id="pers_skills">
+        <section>
             <h2>Personal Skills</h2>
             <ul>
                 <li>Analytical thinking</li> 
@@ -220,9 +219,9 @@
                 <li>Self-motivated</li>
             </ul> 
         </section> 
-        <section id="portfol">
+        <section>
             <h2>Portfolio</h2>
-            <a href="https://github.com/marry705" target="_blank">GithabProfile</a>
+            <a href="https://github.com/marry705" target="_blank"><b><img src="" alt="Githab Profile">Githab Profile</b></a>
             <ul>        
                 <li><a href="https://github.com/marry705/smart-calculator" target="_blank">JavaScriptProjectExample</a></li>
                 <li><a href="https://github.com/marry705/love-triangle" target="_blank">JavaScriptProjectExample</a></li>
@@ -231,6 +230,6 @@
                 <li><a href="https://marry705.github.io/YouTubeAPI/" target="_blank">YouTubeAPI</a></li>
             </ul> 
         </section> 
-    </main>
+    </section>
 </body>
 </html>
