@@ -1,0 +1,127 @@
+:root{
+    --color-light: #F0FFFF;
+    --color-blue: #4682B4;
+    --color-blue-light: #B0C4DE;
+    --color-blue-dark: #191970;
+}
+* {
+    box-sizing: border-box;
+}
+body{
+    margin: 0 auto;
+    padding: 0;
+    background-color: var(--color-light);
+    font-family: 'Inconsolata', monospace, Arial;
+    color: #000000;
+    font-size: 16px;
+}
+.f-col{
+    float:left;
+    width: 35%;
+    padding: 15px;
+    margin: 2% 0.5%;
+}
+.s-col{
+    float:right; 
+    width: 63%; 
+    padding: 15px;
+    margin: 2% 0.5%;
+    border-left: 1px solid var(--color-blue-light);
+}
+@media screen and (max-width: 700px){
+    body{
+        font-size: 12px;
+    }
+    .s-col, .f-col{
+        float: none; 
+        width: 100%;
+        margin: 2% 0.5%; 
+        border: none;
+    } 
+}
+ @media screen and (max-width: 500px){
+    body{
+        font-size: 8px;
+    } 
+} 
+h2{
+    text-transform: uppercase;
+    text-align: left;
+    color: var(--color-blue);
+    font-size: 1.3rem;
+}
+h1{
+    text-transform: uppercase;
+    text-align: left;
+    color: 	var(--color-light);
+    font-size: 1.4rem;
+    background-color: var(--color-blue-dark);
+    padding: 10px;
+    margin: 0;
+}
+b{
+    text-transform: uppercase;
+    color: var(--color-blue-dark);  
+}
+a{
+    text-decoration: none;
+    color: #000000;
+    font-weight: bold;
+}
+a:hover{
+    color: 	var(--color-blue); 
+}
+ul{
+    margin-left: 0; 
+    padding-left: 0;
+    line-height: 1.5;
+}
+li{
+    list-style-type: none;
+}
+p{
+    line-height: 1.5;
+    text-align: center;
+}
+table{
+    text-align: left;
+    border-collapse: collapse;
+    width: 100%;
+}
+td{
+    border-bottom: 1px solid var(--color-blue-light);
+    padding: 5px; 
+}
+.soc_network li:first-child::before{
+    font-family: "Font Awesome 5 Free"; 
+    content: "\f1fa";
+    color: var(--color-blue-dark);
+    font-weight: 700;
+    padding-right: 10px;
+}
+.soc_network li:nth-child(2)::before{
+    font-family: "Font Awesome 5 Free"; 
+    content: "\f098";
+    color: var(--color-blue-dark);
+    font-weight: 700;
+    padding-right: 10px;
+}
+.soc_network li:nth-child(4)::before{
+    font-family: "Font Awesome 5 Free"; 
+    content: "\f1fd";
+    color: var(--color-blue-dark);
+    font-weight: 700;
+    padding-right: 10px;
+}
+.fa-skype{
+    color: var(--color-blue-dark);
+    font-weight: 700;
+    padding-right: 10px;
+}
+.soc_network li:last-child::before{
+    font-family: "Font Awesome 5 Free"; 
+    content: "\f3c5";
+    color: var(--color-blue-dark);
+    font-weight: 700;
+    padding-right: 10px;
+}
